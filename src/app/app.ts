@@ -6,7 +6,7 @@ import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
   selector: 'app-root',
   imports: [RouterLink, RouterOutlet, TranslocoModule],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.scss'
 })
 export class App {
   activeLang = 'en';
