@@ -1,6 +1,6 @@
 <header>
   <div class="lang-menu">
-    <select id="langSelector" onchange="setLang(this.value)">
+    <select id="langSelector" [value]="activeLang" (change)="setLang($any($event.target).value)">
       <option value="en">🇬🇧 EN</option>
       <option value="de">🇩🇪 DE</option>
     </select>
@@ -8,9 +8,9 @@
 
   <div class="branding">
     <img src="images/logo.png" alt="JoinMe App Logo" class="logo" />
-    <h1 data-i18n="title">JoinMe</h1>
+    <h1 transloco="title">JoinMe</h1>
   </div>
-  <p data-i18n="subtitle">Meet new people in real life</p>
+  <p transloco="subtitle">Meet new people in real life</p>
 
   <div class="store-buttons">
     <a href="https://play.google.com/store/apps/details?id=YOUR_APP_ID" target="_blank">
@@ -21,22 +21,22 @@
     </a>
   </div>
   <nav>
-    <a routerLink="/" data-i18n="nav.home">Home</a>
-    <a routerLink="/why" data-i18n="nav.why">Why JoinMe</a>
-    <a routerLink="/how" data-i18n="nav.how">Features</a>
-    <a routerLink="/safety" data-i18n="nav.safety">Safety</a>
-    <a routerLink="/screenshots" data-i18n="nav.screenshots">Screenshots</a>
-    <a routerLink="/documentation" data-i18n="nav.documentation">Documentation</a>
-    <a routerLink="/faq" data-i18n="nav.faq">FAQ</a>
+    <a routerLink="/" transloco="nav.home">Home</a>
+    <a routerLink="/why" transloco="nav.why">Why JoinMe</a>
+    <a routerLink="/how" transloco="nav.how">Features</a>
+    <a routerLink="/safety" transloco="nav.safety">Safety</a>
+    <a routerLink="/screenshots" transloco="nav.screenshots">Screenshots</a>
+    <a routerLink="/documentation" transloco="nav.documentation">Documentation</a>
+    <a routerLink="/faq" transloco="nav.faq">FAQ</a>
   </nav>
 </header>
 
 <div class="main-content">
   <router-outlet />
   <footer>
-    <a routerLink="/privacy-policy" data-i18n="footer.privacyLink">Privacy Policy</a>
-    <a routerLink="/terms" data-i18n="footer.termsLink">Terms</a>
-    <a href="mailto:support@join-me-app.com" data-i18n="footer.contact">Contact</a>:
+    <a routerLink="/privacy-policy" transloco="footer.privacyLink">Privacy Policy</a>
+    <a routerLink="/terms" transloco="footer.termsLink">Terms</a>
+    <a href="mailto:support@join-me-app.com" transloco="footer.contact">Contact</a>:
     <span class="support-email">support@join-me-app.com</span>
   </footer>
 </div>

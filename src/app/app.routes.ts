@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
-import { DocumentationComponent } from './documentation.component';
-import { HowComponent } from './how.component';
-import { HomeComponent } from './home.component';
-import { FaqComponent } from './faq.component';
-import { PrivacyPolicyComponent } from './privacy-policy.component';
-import { SafetyComponent } from './safety.component';
-import { ScreenshotsComponent } from './screenshots.component';
-import { TermsComponent } from './terms.component';
-import { WhyComponent } from './why.component';
+import { DocumentationComponent } from './pages/documentation/documentation.component';
+import { HowComponent } from './pages/how/how.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { SafetyComponent } from './pages/safety/safety.component';
+import { ScreenshotsComponent } from './pages/screenshots/screenshots.component';
+import { TermsComponent } from './pages/terms/terms.component';
+import { WhyComponent } from './pages/why/why.component';
 
 export const routes: Routes = [
   { path: 'documentation', component: DocumentationComponent },

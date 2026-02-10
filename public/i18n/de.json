@@ -1,0 +1,78 @@
+{
+  "title": "JoinMe",
+  "subtitle": "Neue Leute im echten Leben treffen",
+  "nav": {
+    "home": "Startseite",
+    "why": "Warum JoinMe",
+    "how": "Funktionen",
+    "safety": "Sicherheit",
+    "screenshots": "Screenshots",
+    "documentation": "Dokumentation",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "privacyLink": "Datenschutz",
+    "termsLink": "AGB",
+    "contact": "Kontakt"
+  },
+  "title1": "Echte Menschen",
+  "title2": "Echte Momente",
+  "index": {
+    "heroP1": "In einer Welt, die am Bildschirm klebt, war echte Begegnung noch nie so wichtig.",
+    "heroP2": "hat es sich zur Aufgabe gemacht, Technologie zur Bruecke fuer echte Verbindungen zu machen.",
+    "heroP3a": "Bei",
+    "heroP3b": "faengt alles mit dir an — veranstalte Aktivitaeten oder schliesse dich inspirierenden Events in deiner Naehe an. Gefaellt dir die Idee? Lade die App herunter und leg los.",
+    "heading": "So funktioniert JoinMe",
+    "description": "JoinMe hilft dir, neue Menschen in deiner Umgebung kennenzulernen — je nach Interesse oder Stimmung. Nimm an spontanen Treffen teil oder plane Aktivitaeten im Voraus, chatte mit anderen und mache aus Kontakten echte Erlebnisse."
+  },
+  "why": {
+    "title": "Warum JoinMe?",
+    "text": "JoinMe bietet dir den einfachsten Weg, Menschen mit aehnlichen Interessen zu treffen. Egal ob du neu in der Stadt bist, Freunde suchst oder Events organisieren willst — JoinMe ist der perfekte Start.",
+    "text1": "Genug von endlosen Kurzvideos und Trends? Zeit, den Bildschirm beiseite zu legen und echte Menschen in deiner Naehe zu treffen?",
+    "text2": "Ob du neu in der Stadt bist, keine Lust auf endlose Gaming-Sessions hast oder einfach neue Gesichter suchst — JoinMe hilft dir, dich zu verbinden, zu teilen und echte Erinnerungen zu schaffen.",
+    "benefit1": "Finde Menschen mit gleichen Interessen",
+    "benefit2": "Nimm an Aktivitaeten teil oder erstelle eigene — spontan oder geplant",
+    "benefit3": "Mach aus Chats echte Laecheln und gute Momente",
+    "benefit4": "Entdecke deine Stadt mit neuen Augen",
+    "activitiesTitle": "Was kannst du mit JoinMe machen?",
+    "activitiesSubtitle": "Entfalte deine Fantasie. Deine Welt, deine Aktivitaeten. Von ruhigen Spaziergaengen bis zu grossen Abenteuern oder ausgefallenen Hobbys — du kannst Aktivitaeten erstellen, die du liebst, sicher und legal.",
+    "examples": "Beispiele:",
+    "activity1": "🌿 Spazieren im Park und gemeinsam Pflanzen benennen",
+    "activity2": "🧗‍♀️ Lokale Kletterhallen mit anderen Abenteurern entdecken",
+    "activity3": "🎨 Street-Art- oder Sketch-Walk mit kreativen Koepfen",
+    "activity4": "📚 Entspannter Kaffee- und Buch-Chat im Lieblingscafe",
+    "activity6": "🚴‍♂️ Deine Stadt bei einer Gruppen-Fahrradtour erkunden",
+    "activity7": "🎤 Karaoke-Fans finden und zusammen singen",
+    "end": "Die einzige Grenze ist deine Fantasie — erschaffe unvergessliche Momente."
+  },
+  "feature1Title": "📍 Spontan",
+  "feature1Text": "Die besten Momente sind spontan. Erstelle oder trete sofortigen Aktivitaeten in deiner Naehe bei — vom schnellen Kaffee bis zur spaeten Party. Perfekt, wenn du Lust auf Leute und Austausch hast.",
+  "feature2Title": "📅 Geplant",
+  "feature2Text": "Mache aus Ideen echte Plaene und gestalte deine Woche spannender. Erstelle eigene Aktivitaeten oder schliesse dich anderen an — heute, morgen oder innerhalb der naechsten 7 Tage. Ob Wandern, Sport, Shopping oder Lerngruppen — du entscheidest.",
+  "feature3Title": "✅ Sicher & flexibel",
+  "feature3Text": "Behalte die Kontrolle ueber deine Treffen: Bestimme, wer teilnehmen darf, und chatte erst, wenn du bereit bist. Sieh alle Details im Voraus — Zeit, Ort und Art der Aktivitaet. Erstelle eigene Abenteuer oder nimm jederzeit an spontanen und geplanten Aktivitaeten teil. Fuehl dich sicher, bleib flexibel und geniesse echte Begegnungen zu deinen Bedingungen.",
+  "safety": {
+    "title": "Sicherheitsstandards",
+    "intro": "Wir verpflichten uns, JoinMe zu einem sicheren Ort fuer alle Nutzer zu machen und insbesondere Minderjaehrige vor Missbrauch oder Ausbeutung zu schuetzen.",
+    "section1": {
+      "title": "1. Inhaltsmoderation",
+      "text": "Alle Inhalte werden durch automatisierte Tools und menschliche Moderation ueberwacht. Unangemessene Inhalte werden umgehend entfernt."
+    },
+    "section2": {
+      "title": "2. Altersbeschraenkungen",
+      "text": "JoinMe ist fuer Nutzer ab 18 Jahren gedacht. Wir pruefen Hinweise auf Minderjaehrige und entfernen Konten, die gegen diese Regel verstossen."
+    },
+    "section3": {
+      "title": "3. Melde-Tools",
+      "text": "Nutzer koennen problematisches Verhalten direkt in der App melden. Wir reagieren auf alle sicherheitsrelevanten Meldungen innerhalb von 24 Stunden."
+    },
+    "section4": {
+      "title": "4. Zusammenarbeit mit Strafverfolgungsbehoerden",
+      "text": "Wir melden CSAE-Inhalte an zustaendige Stellen, einschliesslich NCMEC oder INHOPE."
+    },
+    "section5": {
+      "title": "5. Kontaktinformationen",
+      "text": "Um Missbrauch zu melden, schreibe uns an"
+    }
+  }
+}
