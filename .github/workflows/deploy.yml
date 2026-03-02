@@ -28,7 +28,7 @@ jobs:
         run: npm install -g @angular/cli@latest
 
       - name: Build Angular app
-        run: ng build --configuration production --base-href=/jm-web/
+        run: ng build --configuration production --base-href=/
 
       - name: Debug build output
         run: ls -R dist
