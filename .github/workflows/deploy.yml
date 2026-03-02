@@ -25,7 +25,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Build Angular app
-        run: ng build --prod --output-path=dist --base-href=/jm-web/
+        run: ng build --configuration production --output-path=dist --base-href=/jm-web/
 
       - name: Fix Angular routing
         run: cp dist/index.html dist/404.html
