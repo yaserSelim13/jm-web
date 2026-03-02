@@ -22,18 +22,17 @@ jobs:
         run: npm ci
 
       - name: Install Angular CLI
-        run: npm install -g @angular/cli
+        run: npm install -g @angular/cli@latest
 
       - name: Build Angular app
         run: ng build --configuration production --output-path=dist --base-href=/jm-web/
 
       - name: Fix Angular routing
         run: |
-          BUILD_DIR=$(ls dist)
-          cp dist/$BUILD_DIR/index.html dist/$BUILD_DIR/404.html
+          cp dist/jm-web/index.html dist/jm-web/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./dist/jm-web
