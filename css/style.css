@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Manrope:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #16a34a;
+  --teal-300: #5eead4;
+  --fuchsia-400: #e879f9;
+  --indigo-400: #818cf8;
+  --ink: #1b1f3b;
+  --paper: #f3fff8;
+  --card: #ffffff;
+  --line: #a7f3d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 8% 12%, rgba(94, 234, 212, 0.35) 0 18%, transparent 19%),
+    radial-gradient(circle at 88% 24%, rgba(232, 121, 249, 0.28) 0 17%, transparent 18%),
+    radial-gradient(circle at 75% 84%, rgba(129, 140, 248, 0.3) 0 19%, transparent 20%),
+    linear-gradient(180deg, #f6fffb, var(--paper));
+}
+
+.topbar {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 1rem auto 0;
+  padding: 0.9rem 1rem;
+  border: 2px solid rgba(22, 163, 74, 0.35);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.brand-name {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.9rem;
+  line-height: 1;
+  color: var(--primary);
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.top-links {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+  background: linear-gradient(120deg, rgba(94, 234, 212, 0.2), rgba(129, 140, 248, 0.15));
+  border: 2px solid rgba(129, 140, 248, 0.4);
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+}
+
+.top-links a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(232, 121, 249, 0.55);
+}
+
+.lang-menu select {
+  border: 2px solid rgba(22, 163, 74, 0.35);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: #fff;
+  cursor: pointer;
+}
+
+.app-main {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 1rem auto;
+}
+
+.hero-panel {
+  border: 2px solid var(--line);
+  border-radius: 26px;
+  padding: clamp(1.2rem, 2.5vw, 2.2rem);
+  background: linear-gradient(135deg, rgba(94, 234, 212, 0.2) 0%, rgba(129, 140, 248, 0.2) 52%, rgba(232, 121, 249, 0.18) 100%);
+  box-shadow: 0 12px 32px rgba(22, 163, 74, 0.14);
+  animation: rise 0.65s ease-out both;
+}
+
+.kicker {
+  display: inline-block;
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #fff;
+  border: 2px solid rgba(22, 163, 74, 0.3);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.hero-panel h1 {
+  margin: 0.8rem 0 0;
+  font-family: 'Baloo 2', cursive;
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 0.98;
+  max-width: 14ch;
+  color: #0f5132;
+}
+
+.lead {
+  margin: 0.9rem 0 0;
+  max-width: 52ch;
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+}
+
+.store-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.store-badge {
+  height: 46px;
+  width: auto;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
+.tiny-note {
+  margin: 0.8rem 0 0;
+  color: #2d4c77;
+  font-weight: 600;
+}
+
+.mode-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mode-card {
+  border-radius: 22px;
+  border: 2px solid var(--line);
+  padding: 1.1rem;
+  background: var(--card);
+  animation: rise 0.75s ease-out both;
+}
+
+.mode-card h2 {
+  margin: 0;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.7rem;
+}
+
+.mode-card p {
+  margin: 0.45rem 0 0;
+  line-height: 1.45;
+}
+
+.mode-card.burst {
+  background: linear-gradient(150deg, #ffffff, rgba(94, 234, 212, 0.26));
+}
+
+.mode-card.plan {
+  background: linear-gradient(150deg, #ffffff, rgba(129, 140, 248, 0.24), rgba(232, 121, 249, 0.15));
+}
+
+.steps {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 2px dashed rgba(22, 163, 74, 0.5);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(94, 234, 212, 0.18));
+  animation: rise 0.9s ease-out both;
+}
+
+.steps h3 {
+  margin: 0;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5rem;
+}
+
+.steps p {
+  margin: 0.35rem 0 0;
+}
+
+.site-footer {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 0 auto 1.2rem;
+  padding: 0.9rem;
+  border-radius: 16px;
+  border: 2px solid rgba(129, 140, 248, 0.4);
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  justify-content: center;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  overflow-wrap: break-word;
+}
+
+/* Keeps text pages (privacy/terms/etc.) readable with the new layout. */
+app-privacy-policy,
+app-terms,
+app-faq,
+app-safety,
+app-how,
+app-why,
+app-documentation {
+  display: block;
+  background: rgba(255, 255, 255, 0.72);
+  border: 2px solid rgba(22, 163, 74, 0.28);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    margin-top: 0.6rem;
+    padding: 0.75rem;
+  }
+
+  .brand-name {
+    font-size: 1.6rem;
+  }
+
+  .top-links {
+    gap: 0.5rem;
+  }
+
+  .top-actions {
+    gap: 0.4rem;
+  }
+
+  .top-links a {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .lang-menu select {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.55rem;
+  }
+
+  .mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .store-badge {
+    height: 42px;
+  }
+}
