@@ -1,42 +1,30 @@
-<header>
-  <div class="lang-menu">
-    <select id="langSelector" [value]="activeLang" (change)="setLang($any($event.target).value)">
-      <option value="en">🇬🇧 EN</option>
-      <option value="de">🇩🇪 DE</option>
-    </select>
-  </div>
+<header class="topbar">
+  <a routerLink="/" class="brand" aria-label="Join-Me home">
+    <img src="images/logo.png" alt="Join-Me logo" class="brand-logo" />
+    <span class="brand-name">join-me</span>
+  </a>
 
-  <div class="branding">
-    <img src="images/logo.png" alt="JoinMe App Logo" class="logo" />
-    <h1 transloco="title">JoinMe</h1>
-  </div>
-  <p transloco="subtitle">Meet new people in real life</p>
+  <div class="top-actions">
+    <nav class="top-links" aria-label="Main">
+      <a routerLink="/faq" transloco="nav.faq">FAQ</a>
+      <a routerLink="/safety" transloco="nav.safety">Safety</a>
+    </nav>
 
-  <div class="store-buttons">
-    <a href="https://play.google.com/store/apps/details?id=YOUR_APP_ID" target="_blank">
-      <img src="images/google-play.png" alt="Get it on Google Play" class="store-badge" />
-    </a>
-    <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank">
-      <img src="images/app-store.png" alt="Download on the App Store" class="store-badge" />
-    </a>
+    <div class="lang-menu">
+      <select id="langSelector" [value]="activeLang" (change)="setLang($any($event.target).value)">
+        <option value="en">EN</option>
+        <option value="de">DE</option>
+      </select>
+    </div>
   </div>
-  <nav>
-    <a routerLink="/" transloco="nav.home">Home</a>
-    <a routerLink="/why" transloco="nav.why">Why JoinMe</a>
-    <a routerLink="/how" transloco="nav.how">Features</a>
-    <a routerLink="/safety" transloco="nav.safety">Safety</a>
-    <a routerLink="/screenshots" transloco="nav.screenshots">Screenshots</a>
-    <a routerLink="/documentation" transloco="nav.documentation">Documentation</a>
-    <a routerLink="/faq" transloco="nav.faq">FAQ</a>
-  </nav>
 </header>
 
-<div class="main-content">
+<main class="app-main">
   <router-outlet />
-  <footer>
-    <a routerLink="/privacy-policy" transloco="footer.privacyLink">Privacy Policy</a>
-    <a routerLink="/terms" transloco="footer.termsLink">Terms</a>
-    <a href="mailto:support@join-me-app.com" transloco="footer.contact">Contact</a>:
-    <span class="support-email">support@join-me-app.com</span>
-  </footer>
-</div>
+</main>
+
+<footer class="site-footer">
+  <a routerLink="/privacy-policy" transloco="footer.privacyLink">Privacy</a>
+  <a routerLink="/terms" transloco="footer.termsLink">Terms</a>
+  <a href="mailto:support@join-me-app.com">support@join-me-app.com</a>
+</footer>

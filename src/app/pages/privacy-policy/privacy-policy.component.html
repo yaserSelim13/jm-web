@@ -1,3 +1,4 @@
+<ng-container *ngIf="activeLang === 'de'; else englishPrivacy">
 <h1>Datenschutzerklärung</h1>
 <h2 id="m4158">Präambel</h2>
 <p>
@@ -38,6 +39,7 @@
   <li>Bestandsdaten.</li>
   <li>Kontaktdaten.</li>
   <li>Inhaltsdaten.</li>
+  <li>Standortdaten (sofern freigegeben).</li>
   <li>Nutzungsdaten.</li>
   <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
   <li>Protokolldaten.</li>
@@ -55,6 +57,7 @@
   <li>Organisations- und Verwaltungsverfahren.</li>
   <li>Feedback.</li>
   <li>Profile mit nutzerbezogenen Informationen.</li>
+  <li>Vermittlung und Anzeige von Aktivitäten in der Nähe.</li>
   <li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
   <li>Öffentlichkeitsarbeit.</li>
 </ul>
@@ -248,6 +251,12 @@
     <span class=""><strong>Rechtsgrundlagen:</strong> Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO).</span>
   </li>
   <li><strong>Profile der Nutzer sind öffentlich: </strong>Die Profile der Nutzer sind öffentlich sichtbar und zugänglich.</li>
+  <li>
+    <strong>Standortfreigabe und Sichtbarkeit: </strong>Wenn Nutzer in der App den Standort freigeben, verwenden wir
+    Standortdaten, um Aktivitäten in der Nähe anzuzeigen. Beim Erstellen oder Beitreten zu Aktivitäten kann der
+    ungefähre Standort für andere Nutzer sichtbar sein, soweit dies für die Teilnahme und Durchführung der Aktivität
+    erforderlich ist.
+  </li>
   <li>
     <strong>Löschung von Daten nach Kündigung: </strong>Wenn Nutzer ihr Nutzerkonto gekündigt haben, werden deren Daten
     im Hinblick auf das Nutzerkonto, vorbehaltlich einer gesetzlichen Erlaubnis, Pflicht oder Einwilligung der Nutzer,
@@ -577,3 +586,100 @@
     >Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</a
   >
 </p>
+</ng-container>
+
+<ng-template #englishPrivacy>
+  <h1>Privacy Policy</h1>
+  <p>
+    This Privacy Policy explains which personal data we process, for what purposes, and to what extent in connection
+    with the JoinMe app.
+  </p>
+  <p>Last updated: July 23, 2025</p>
+
+  <h2>Controller</h2>
+  <p>Yaser Selim<br />Brandenburg<br />Germany</p>
+  <p>Email: <a href="mailto:support@join-me-app.com">support@join-me-app.com</a></p>
+
+  <h2>Data We Process</h2>
+  <ul>
+    <li>Account data (e.g., username, email address)</li>
+    <li>Contact and communication data</li>
+    <li>Content data (e.g., profile info, posts, messages)</li>
+    <li>Location data (only if you grant permission)</li>
+    <li>Usage and log data (e.g., access times, technical events)</li>
+  </ul>
+
+  <h2>Why We Process Data</h2>
+  <ul>
+    <li>To provide and operate app features</li>
+    <li>To enable spontaneous and planned meetups</li>
+    <li>To show nearby activities when location is enabled</li>
+    <li>To handle reports and enforce app rules</li>
+    <li>To improve stability and usability</li>
+    <li>To communicate with users and provide support</li>
+  </ul>
+
+  <h2>Location Data</h2>
+  <p>
+    You do not have to share location at all times. If you choose spontaneous mode, sharing your approximate location
+    with other users is required to find nearby people and activities.
+  </p>
+  <p>
+    Please use spontaneous mode only in public places. When you are done meeting people, or you are no longer in a
+    public place, exit spontaneous mode.
+  </p>
+
+  <h2>Reports and Safety</h2>
+  <p>
+    Users can report content or other users in the app, or by email at
+    <a href="mailto:support@join-me-app.com">support@join-me-app.com</a>. Reports are acknowledged automatically and
+    reviewed manually by the app operator.
+  </p>
+  <p>
+    JoinMe provides tools and guidance, but users remain responsible for their own decisions, conduct, and personal
+    safety during meetups.
+  </p>
+
+  <h2>Legal Bases (GDPR)</h2>
+  <ul>
+    <li>Consent (Art. 6(1)(a) GDPR), where required</li>
+    <li>Contract performance / pre-contractual steps (Art. 6(1)(b) GDPR)</li>
+    <li>Legitimate interests (Art. 6(1)(f) GDPR)</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>
+    We may share data with service providers that support app operation (e.g., hosting or technical infrastructure),
+    where necessary and under applicable legal safeguards.
+  </p>
+
+  <h2>International Transfers</h2>
+  <p>
+    If data is transferred outside the EU/EEA, we apply appropriate safeguards in line with applicable law (for example,
+    adequacy decisions and/or standard contractual clauses, where relevant).
+  </p>
+
+  <h2>Retention</h2>
+  <p>
+    We store personal data only as long as necessary for the stated purposes, legal obligations, dispute handling, and
+    security requirements.
+  </p>
+
+  <h2>Your Rights</h2>
+  <p>You may have rights under GDPR, including:</p>
+  <ul>
+    <li>Access to your personal data</li>
+    <li>Correction of inaccurate data</li>
+    <li>Deletion of data where legally applicable</li>
+    <li>Restriction of processing</li>
+    <li>Data portability</li>
+    <li>Objection to processing based on legitimate interests</li>
+    <li>Withdrawal of consent (where processing is based on consent)</li>
+    <li>Right to lodge a complaint with a supervisory authority</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>
+    We may update this Privacy Policy from time to time. The latest version published in the app/website applies.
+  </p>
+</ng-template>

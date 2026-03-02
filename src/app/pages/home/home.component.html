@@ -1,39 +1,37 @@
-<div class="hero">
-  <h1 transloco="title1">Real People</h1>
-  <h1 transloco="title2">Real Moments</h1>
-</div>
-<div style="display: flex; flex-direction: column; gap: 2rem; align-items: center; justify-content: center; padding: 20px">
-  <div class="hero-card">
-    <p transloco="index.heroP1">
-      In a world glued to screens, real human interaction has never been more important.
-    </p>
-    <img src="images/image_1.png" alt="People interacting" class="hero-image" />
+<section class="hero-panel">
+  <p class="kicker" transloco="homeLite.kicker">the join-me app</p>
+  <h1 transloco="homeLite.title">Meet now. Or make a plan for later.</h1>
+  <p class="lead" transloco="homeLite.lead">Find real people nearby. No big organizer. Just people meeting people.</p>
+
+  <div class="store-row" [attr.aria-label]="'homeLite.downloadAria' | transloco">
+    <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+      <img src="images/google-play.png" alt="Get it on Google Play" class="store-badge" />
+    </a>
+    <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
+      <img src="images/app-store.png" alt="Download on the App Store" class="store-badge" />
+    </a>
   </div>
-  <div class="hero-card">
-    <p>
-      <span class="app-name">JoinMe </span>
-      <span transloco="index.heroP2">
-        is on a mission to turn technology into a bridge for meaningful, real-life connections.
-      </span>
+
+  <p class="tiny-note" transloco="homeLite.note">Quick hangs, chill plans, new friends.</p>
+</section>
+
+<section class="mode-grid" [attr.aria-label]="'homeLite.modesAria' | transloco">
+  <article class="mode-card burst">
+    <h2 transloco="homeLite.spontaneousTitle">Spontaneous</h2>
+    <p transloco="homeLite.spontaneousText">
+      Open the app, see who is up for coffee, basketball, a walk, or random fun right now.
     </p>
-    <img src="images/image_2.png" alt="People interacting" class="hero-image" />
-  </div>
-  <div class="hero-card">
-    <p>
-      <span transloco="index.heroP3a">At</span>
-      <span class="app-name">JoinMe</span>
-      <span transloco="index.heroP3b">
-        , it all starts with you — host activities or join inspiring ones around you. Like the idea? Download the app
-        and dive in.
-      </span>
+  </article>
+
+  <article class="mode-card plan">
+    <h2 transloco="homeLite.plannedTitle">Planned</h2>
+    <p transloco="homeLite.plannedText">
+      Set a time, pick a vibe, and let people join. From tomorrow brunch to next week hikes.
     </p>
-    <div class="download-buttons">
-      <a href="https://play.google.com" target="_blank">
-        <img src="images/google-play.png" alt="Get it on Google Play" />
-      </a>
-      <a href="https://apps.apple.com" target="_blank">
-        <img src="images/app-store.png" alt="Download on the App Store" />
-      </a>
-    </div>
-  </div>
-</div>
+  </article>
+</section>
+
+<section class="steps" [attr.aria-label]="'homeLite.stepsAria' | transloco">
+  <h3 transloco="homeLite.stepsTitle">How it works</h3>
+  <p transloco="homeLite.stepsText">Create or join an activity, chat a bit, then meet in real life.</p>
+</section>

@@ -5,7 +5,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { SafetyComponent } from './pages/safety/safety.component';
-import { ScreenshotsComponent } from './pages/screenshots/screenshots.component';
 import { TermsComponent } from './pages/terms/terms.component';
 import { WhyComponent } from './pages/why/why.component';
 
@@ -16,7 +15,6 @@ export const routes: Routes = [
   { path: 'faq', component: FaqComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
-  { path: 'screenshots', component: ScreenshotsComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'why', component: WhyComponent }
 ];
