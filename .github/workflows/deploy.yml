@@ -28,7 +28,9 @@ jobs:
         run: ng build --configuration production --output-path=dist --base-href=/jm-web/
 
       - name: Fix Angular routing
-        run: cp dist/index.html dist/404.html
+        run: |
+          BUILD_DIR=$(ls dist)
+          cp dist/$BUILD_DIR/index.html dist/$BUILD_DIR/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4.0.0
