@@ -36,9 +36,11 @@ jobs:
       - name: Fix Angular routing
         run: |
           cp dist/jm-web/browser/index.html dist/jm-web/browser/404.html
+          cp CNAME dist/jm-web/browser/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/jm-web/browser
+          cname: www.join-me-app.com
