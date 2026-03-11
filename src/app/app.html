@@ -1,13 +1,13 @@
 <header class="topbar">
-  <a routerLink="/" class="brand" aria-label="Join-Me home">
+  <a routerLink="/" [queryParams]="{ lang: activeLang }" class="brand" aria-label="Join-Me home">
     <img src="images/logo.png" alt="Join-Me logo" class="brand-logo" />
     <span class="brand-name">join-me</span>
   </a>
 
   <div class="top-actions">
     <nav class="top-links" aria-label="Main">
-      <a routerLink="/faq" transloco="nav.faq">FAQ</a>
-      <a routerLink="/safety" transloco="nav.safety">Safety</a>
+      <a routerLink="/faq" [queryParams]="{ lang: activeLang }" transloco="nav.faq">FAQ</a>
+      <a routerLink="/safety" [queryParams]="{ lang: activeLang }" transloco="nav.safety">Safety</a>
     </nav>
 
     <div class="lang-menu">
@@ -24,7 +24,8 @@
 </main>
 
 <footer class="site-footer">
-  <a routerLink="/privacy-policy" transloco="footer.privacyLink">Privacy</a>
-  <a routerLink="/terms" transloco="footer.termsLink">Terms</a>
+  <a routerLink="/privacy-policy" [queryParams]="{ lang: activeLang }" transloco="footer.privacyLink">Privacy</a>
+  <a routerLink="/terms" [queryParams]="{ lang: activeLang }" transloco="footer.termsLink">Terms</a>
+  <a [href]="'/account-deletion/?lang=' + activeLang" transloco="footer.accountDeletionLink">Delete Account</a>
   <a href="mailto:support@join-me-app.com">support@join-me-app.com</a>
 </footer>
