@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Join-Me Account Deletion</title>
+    <meta
+      name="description"
+      content="How to delete your Join-Me account and what happens to your data after deletion."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f1ea;
+        --card: #fffdf8;
+        --text: #1f1a14;
+        --muted: #6a5f53;
+        --border: #ddd1c2;
+        --accent: #b45a2a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background:
+          radial-gradient(circle at top, #fff4df 0, transparent 32%),
+          linear-gradient(180deg, #f7f2eb 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 18px 40px rgba(48, 30, 12, 0.08);
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.8rem);
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+      }
+
+      p,
+      li {
+        line-height: 1.6;
+      }
+
+      .lede {
+        color: var(--muted);
+        font-size: 1.05rem;
+        margin-bottom: 28px;
+      }
+
+      .section + .section {
+        margin-top: 28px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+
+      ol,
+      ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .note {
+        margin-top: 16px;
+        padding: 14px 16px;
+        border-radius: 14px;
+        background: #fff3e8;
+        border: 1px solid #f0cfb5;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <section aria-labelledby="page-title">
+          <h1 id="page-title"></h1>
+          <p class="lede" id="page-lede"></p>
+
+          <div class="section">
+            <h2 id="steps-title"></h2>
+            <ol id="steps-list"></ol>
+          </div>
+
+          <div class="section">
+            <h2 id="after-title"></h2>
+            <ul id="after-list"></ul>
+            <p class="note" id="support-text"></p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script>
+      const content = {
+        en: {
+          lang: 'en',
+          title: 'Join-Me Account Deletion',
+          description: 'How to delete your Join-Me account and what happens to your data after deletion.',
+          lede: 'You can request deletion of your Join-Me account directly in the app.',
+          stepsTitle: 'How to delete your account',
+          steps: [
+            'Open the Join-Me app.',
+            'Go to Settings.',
+            'Open Account Management.',
+            'Tap Delete Account.'
+          ],
+          afterTitle: 'What happens after deletion',
+          after: [
+            'Your account is set to inactive immediately.',
+            'Your personal data is deleted within one month.'
+          ],
+          supportPrefix: 'If you need help with account deletion, contact '
+        },
+        de: {
+          lang: 'de',
+          title: 'Join-Me Kontolöschung',
+          description: 'So löschst du dein Join-Me-Konto und was danach mit deinen Daten passiert.',
+          lede: 'Du kannst die Löschung deines Join-Me-Kontos direkt in der App anfordern.',
+          stepsTitle: 'So löschst du dein Konto',
+          steps: [
+            'Öffne die Join-Me App.',
+            'Gehe zu Einstellungen.',
+            'Öffne Kontoverwaltung.',
+            'Tippe auf Konto löschen.'
+          ],
+          afterTitle: 'Was nach der Löschung passiert',
+          after: [
+            'Dein Konto wird sofort auf inaktiv gesetzt.',
+            'Deine personenbezogenen Daten werden innerhalb eines Monats gelöscht.'
+          ],
+          supportPrefix: 'Wenn du Hilfe bei der Kontolöschung brauchst, schreibe an '
+        }
+      };
+
+      function resolveLang() {
+        const langParam = new URLSearchParams(window.location.search).get('lang');
+        if (langParam === 'de' || langParam === 'en') return langParam;
+
+        const browserLang = navigator.language?.toLowerCase().split('-')[0];
+        return browserLang === 'de' ? 'de' : 'en';
+      }
+
+      function renderPage(copy) {
+        document.documentElement.lang = copy.lang;
+        document.title = copy.title;
+        document.querySelector('meta[name="description"]').setAttribute('content', copy.description);
+        document.getElementById('page-title').textContent = copy.title;
+        document.getElementById('page-lede').textContent = copy.lede;
+        document.getElementById('steps-title').textContent = copy.stepsTitle;
+        document.getElementById('after-title').textContent = copy.afterTitle;
+
+        const stepsList = document.getElementById('steps-list');
+        const afterList = document.getElementById('after-list');
+        stepsList.innerHTML = '';
+        afterList.innerHTML = '';
+
+        copy.steps.forEach((item) => {
+          const li = document.createElement('li');
+          li.textContent = item;
+          stepsList.appendChild(li);
+        });
+
+        copy.after.forEach((item) => {
+          const li = document.createElement('li');
+          li.textContent = item;
+          afterList.appendChild(li);
+        });
+
+        const supportText = document.getElementById('support-text');
+        supportText.textContent = copy.supportPrefix;
+        const link = document.createElement('a');
+        link.href = 'mailto:support@join-me-app.com';
+        link.textContent = 'support@join-me-app.com';
+        supportText.appendChild(link);
+        supportText.append('.');
+      }
+
+      renderPage(content[resolveLang()]);
+    </script>
+  </body>
+</html>
