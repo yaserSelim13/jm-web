@@ -12,6 +12,7 @@
   "footer": {
     "privacyLink": "Privacy Policy",
     "termsLink": "Terms",
+    "accountDeletionLink": "Delete Account",
     "contact": "Contact"
   },
   "faq": {
@@ -21,22 +22,35 @@
       "answer": "JoinMe is a people-to-people app for spontaneous and planned real-life meetups."
     },
     "q2": {
+      "title": "What is spontaneous mode?",
+      "answer": "You post what you feel like doing, tap once, and go live. People nearby can find and join you, and you can join them. Then you just meet. Simple and full of vibes."
+    },
+    "q3": {
+      "title": "What is planned mode?",
+      "answer": "You create an activity for any time in the next 7 days. Others see it and can join."
+    },
+    "q4": {
+      "title": "Are matches guaranteed in a short time?",
+      "answer": "Not guaranteed. It's about vibes and real experiences. If it clicks, it's fun. If not, it's still real."
+    },
+    "q5": {
+      "title": "Can I use spontaneous mode everywhere and anytime?",
+      "answer": "Technically yes. But since we are still small, it may not be useful everywhere yet. For now, we publish weekly meetup time-windows in specific Berlin areas, and update them in the app. As we grow, we will extend these windows. If we reach a very large user base, spontaneous mode may run all the time and everywhere."
+    },
+    "q6": {
       "title": "Do I have to pay to use JoinMe?",
       "answer": "No. We just started, so JoinMe is free right now. We currently use ads and may add paid features later."
     },
-    "q3": {
+    "q7": {
       "title": "Do other users always see my location?",
       "answer": "No. Your location is only shared when you turn on spontaneous mode. In this mode, your approximate location is visible so others nearby can find you. Please use spontaneous mode only in public places, and don’t forget to turn it off when you’re done meeting or leave the public area."
-    },
-    "q4": {
-      "title": "Can I use spontaneous mode everywhere and anytime?",
-      "answer": "Technically yes. But since we are still small, it may not be useful everywhere yet. For now, we publish weekly meetup time-windows in specific Berlin areas, and update them in the app. As we grow, we will extend these windows. If we reach a very large user base, spontaneous mode may run all the time and everywhere."
     }
   },
   "homeLite": {
     "kicker": "the join-me app",
-    "title": "Now or Later. Always real Experiences.",
-    "lead": "Find real people nearby. No big organizer. Just people meeting people.",
+    "title1": "No Plan?",
+    "title2": "Perfect!",
+    "lead": "Find real people nearby. No big organizers. Just people meeting people.",
     "downloadAria": "Download options",
     "note": "Quick hangs, chill plans, new experiences.",
     "modesAria": "Ways to use Join-Me",

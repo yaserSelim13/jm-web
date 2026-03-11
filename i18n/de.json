@@ -12,6 +12,7 @@
   "footer": {
     "privacyLink": "Datenschutz",
     "termsLink": "AGB",
+    "accountDeletionLink": "Konto löschen",
     "contact": "Kontakt"
   },
   "faq": {
@@ -21,22 +22,35 @@
       "answer": "JoinMe ist eine People-to-People-App für spontane und geplante Treffen im echten Leben."
     },
     "q2": {
+      "title": "Was ist der Spontan-Modus?",
+      "answer": "Du schreibst kurz, worauf du Lust hast, drückst den Button und bist sofort online. Leute in der Nähe können dich finden und mitmachen, und du kannst bei ihnen joinen. Dann trefft ihr euch einfach. Easy, simpel, gute Vibes."
+    },
+    "q3": {
+      "title": "Was ist der Geplant-Modus?",
+      "answer": "Du erstellst eine Aktivität für irgendwann in den nächsten 7 Tagen. Andere sehen sie und können joinen."
+    },
+    "q4": {
+      "title": "Sind Matches in kurzer Zeit garantiert?",
+      "answer": "Nicht garantiert. Es geht um Vibes und echte Erlebnisse. Wenn der Vibe passt, wird's richtig gut. Wenn nicht, ist es trotzdem eine echte Erfahrung."
+    },
+    "q5": {
+      "title": "Kann ich den Spontan-Modus überall und jederzeit nutzen?",
+      "answer": "Technisch gesehen ja. Da unsere Community aber noch wächst, ist das noch nicht überall sinnvoll. Aktuell veröffentlichen wir jede Woche Zeitfenster für Treffen in bestimmten Bereichen Berlins und aktualisieren sie direkt in der App. Während wir wachsen, erweitern wir diese Zeitfenster. Wenn wir eine sehr große Nutzerbasis haben, kann der Spontan-Modus möglicherweise jederzeit und überall aktiv sein."
+    },
+    "q6": {
       "title": "Muss ich für JoinMe bezahlen?",
       "answer": "Nein. Wir sind gerade gestartet, deshalb ist JoinMe aktuell kostenlos. Im Moment nutzen wir Werbung, später kann es optionale Bezahlfunktionen geben."
     },
-    "q3": {
+    "q7": {
       "title": "Sehen andere Nutzer immer meinen Standort?",
       "answer": "Nein. Dein Standort wird nur geteilt, wenn du den Spontan-Modus aktivierst. In diesem Modus wird dein ungefährer Standort angezeigt, damit dich Personen in der Nähe finden können. Bitte nutze den Spontan-Modus nur an öffentlichen Orten und vergiss nicht, ihn wieder zu deaktivieren, wenn du mit dem Treffen fertig bist oder keinen öffentlichen Ort mehr besuchst."
-    },
-    "q4": {
-      "title": "Kann ich den Spontan-Modus überall und jederzeit nutzen?",
-      "answer": "Technisch gesehen ja. Da unsere Community aber noch wächst, ist das noch nicht überall sinnvoll. Aktuell veröffentlichen wir jede Woche Zeitfenster für Treffen in bestimmten Bereichen Berlins und aktualisieren sie direkt in der App. Während wir wachsen, erweitern wir diese Zeitfenster. Wenn wir eine sehr große Nutzerbasis haben, kann der Spontan-Modus möglicherweise jederzeit und überall aktiv sein."
     }
   },
   "homeLite": {
     "kicker": "die join-me app",
-    "title": "Jetzt oder Später. Immer echte Erlebnisse",
-    "lead": "Finde echte Menschen in deiner Nähe. Kein großer Veranstalter. Einfach Menschen treffen Menschen.",
+    "title1": "Kein Plan?",
+    "title2": "Perfekt!",
+    "lead": "Finde echte Menschen in deiner Nähe. Keine großen Veranstalter. Einfach Menschen treffen Menschen.",
     "downloadAria": "Download-Optionen",
     "note": "Schnelle Treffen, entspannte Pläne, neue Erlebnisse.",
     "modesAria": "So nutzt du Join-Me",
