@@ -3,6 +3,7 @@ import { DocumentationComponent } from './pages/documentation/documentation.comp
 import { HowComponent } from './pages/how/how.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { SafetyComponent } from './pages/safety/safety.component';
 import { TermsComponent } from './pages/terms/terms.component';
@@ -13,6 +14,7 @@ export const routes: Routes = [
   { path: 'how', component: HowComponent },
   { path: '', component: HomeComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'impressum', component: ImpressumComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
   { path: 'terms', component: TermsComponent },

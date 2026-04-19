@@ -24,6 +24,7 @@
 </main>
 
 <footer class="site-footer">
+  <a routerLink="/impressum" [queryParams]="{ lang: activeLang }" transloco="footer.impressumLink">Impressum</a>
   <a routerLink="/privacy-policy" [queryParams]="{ lang: activeLang }" transloco="footer.privacyLink">Privacy</a>
   <a routerLink="/terms" [queryParams]="{ lang: activeLang }" transloco="footer.termsLink">Terms</a>
   <a [href]="'/account-deletion/?lang=' + activeLang" transloco="footer.accountDeletionLink">Delete Account</a>
