@@ -1,0 +1,63 @@
+<ng-container *ngIf="activeLang === 'de'; else englishImpressum">
+  <h1>Impressum</h1>
+
+  <h2>Angaben gemäß § 5 DDG</h2>
+  <p>
+    Yaser Selim<br />
+    Postfach 4 02 02<br />
+    10115 Berlin<br />
+    Deutschland
+  </p>
+
+  <h2>Kontakt</h2>
+  <p>
+    E-Mail:
+    <a href="mailto:support@join-me-app.com">support@join-me-app.com</a>
+  </p>
+
+  <h2>Verantwortlich für den Inhalt</h2>
+  <p>
+    Yaser Selim<br />
+    Postfach 4 02 02<br />
+    10115 Berlin<br />
+    Deutschland
+  </p>
+
+  <h2>Hinweis</h2>
+  <p>
+    Weitere Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer
+    <a routerLink="/privacy-policy" [queryParams]="{ lang: activeLang }">Datenschutzerklärung</a>.
+  </p>
+</ng-container>
+
+<ng-template #englishImpressum>
+  <h1>Imprint</h1>
+
+  <h2>Information pursuant to Section 5 DDG</h2>
+  <p>
+    Yaser Selim<br />
+    PO Box 4 02 02<br />
+    10115 Berlin<br />
+    Germany
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Email:
+    <a href="mailto:support@join-me-app.com">support@join-me-app.com</a>
+  </p>
+
+  <h2>Responsible for content</h2>
+  <p>
+    Yaser Selim<br />
+    PO Box 4 02 02<br />
+    10115 Berlin<br />
+    Germany
+  </p>
+
+  <h2>Note</h2>
+  <p>
+    Further information on the processing of personal data can be found in our
+    <a routerLink="/privacy-policy" [queryParams]="{ lang: activeLang }">Privacy Policy</a>.
+  </p>
+</ng-template>
