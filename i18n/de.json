@@ -1,38 +1,44 @@
 {
   "title": "JoinMe",
-  "subtitle": "Neue Leute im echten Leben treffen",
+  "subtitle": "Menschen in deiner Nähe treffen - im echten Leben",
   "nav": {
     "home": "Startseite",
     "why": "Warum JoinMe",
     "how": "Funktionen",
     "safety": "Sicherheit",
     "documentation": "Dokumentation",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "download": "Download"
   },
   "footer": {
     "impressumLink": "Impressum",
     "privacyLink": "Datenschutz",
     "termsLink": "AGB",
     "accountDeletionLink": "Konto löschen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "downloadTitle": "JoinMe herunterladen",
+    "downloadText": "Hol dir die App und sieh, wer in deiner Nähe ist.",
+    "downloadAria": "JoinMe herunterladen",
+    "googlePlayAlt": "Jetzt bei Google Play",
+    "appStoreAlt": "Im App Store laden"
   },
   "faq": {
     "title": "FAQ",
     "q1": {
       "title": "Was ist JoinMe?",
-      "answer": "JoinMe ist eine People-to-People-App für spontane und geplante Treffen im echten Leben."
+      "answer": "JoinMe ist eine Social-App für spontane Aktivitäten im echten Leben mit Menschen in deiner Nähe. Keine großen Events, keine komplizierte Planung - einfach kleine Treffen, die natürlich entstehen."
     },
     "q2": {
       "title": "Was ist der Spontan-Modus?",
-      "answer": "Du schreibst kurz, worauf du Lust hast, drückst den Button und bist sofort online. Leute in der Nähe können dich finden und mitmachen, und du kannst bei ihnen joinen. Dann trefft ihr euch einfach. Easy, simpel, gute Vibes."
+      "answer": "Im Spontan-Modus siehst du Menschen in deiner Nähe, die gerade Zeit haben und etwas unternehmen möchten. Teile kurz, worauf du Lust hast, schau wer in der Nähe ist, chatte kurz und trefft euch im echten Leben."
     },
     "q3": {
       "title": "Was ist der Geplant-Modus?",
-      "answer": "Du erstellst eine Aktivität für irgendwann in den nächsten 7 Tagen. Andere sehen sie und können joinen."
+      "answer": "Im Geplant-Modus erstellst du eine kleine Aktivität für die nächsten Tage. Menschen in deiner Nähe können sie entdecken, beitreten und sich zum passenden Zeitpunkt treffen."
     },
     "q4": {
       "title": "Sind Matches in kurzer Zeit garantiert?",
-      "answer": "Nicht garantiert. Es geht um Vibes und echte Erlebnisse. Wenn der Vibe passt, wird's richtig gut. Wenn nicht, ist es trotzdem eine echte Erfahrung."
+      "answer": "Nein. Bei JoinMe geht es um echte Menschen und echte Momente, deshalb sind Matches nie garantiert. Wenn es passt, umso besser. Wenn nicht, war es trotzdem eine echte Erfahrung."
     },
     "q5": {
       "title": "Kann ich den Spontan-Modus überall und jederzeit nutzen?",
@@ -48,57 +54,57 @@
     }
   },
   "homeLite": {
-    "kicker": "die join-me app",
+    "kicker": "die JoinMe App",
     "title1": "Kein Plan?",
     "title2": "Perfekt!",
-    "lead": "Finde echte Menschen in deiner Nähe. Keine großen Veranstalter. Einfach Menschen treffen Menschen.",
+    "lead": "Finde Menschen in deiner Nähe, die Lust auf echte Treffen haben - ohne große Events und endloses Chatten.",
     "downloadAria": "Download-Optionen",
-    "note": "Schnelle Treffen, entspannte Pläne, neue Erlebnisse.",
-    "modesAria": "So nutzt du Join-Me",
+    "note": "Kleine Pläne. Neue Gesichter. Echte Momente.",
+    "modesAria": "So nutzt du JoinMe",
     "spontaneousTitle": "Spontan",
-    "spontaneousText": "Öffne die App und schau, wer jetzt Lust auf Kaffee, Basketball, einen Spaziergang oder etwas Zufall hat.",
+    "spontaneousText": "Öffne die App und sieh, wer in deiner Nähe gerade Lust auf Kaffee, Basketball, Spazieren, Lernen oder etwas Spontanes hat.",
     "plannedTitle": "Geplant",
-    "plannedText": "Lege Zeit und Stimmung fest und lass Leute beitreten. Von morgen Brunch bis nächste Woche Wandern.",
+    "plannedText": "Erstelle eine einfache Aktivität für später und lass Menschen in deiner Nähe beitreten. Vom Kaffee morgen bis zum Spaziergang am Wochenende.",
     "stepsAria": "So funktioniert es",
     "stepsTitle": "So funktioniert es",
-    "stepsText": "Aktivität erstellen oder beitreten, kurz chatten, dann im echten Leben treffen."
+    "stepsText": "Aktivität erstellen oder beitreten, kurz abstimmen und im echten Leben treffen."
   },
   "title1": "Echte Menschen",
   "title2": "Echte Momente",
   "index": {
-    "heroP1": "In einer Welt, die am Bildschirm klebt, war echte Begegnung noch nie so wichtig.",
-    "heroP2": "hat es sich zur Aufgabe gemacht, Technologie zur Brücke für echte Verbindungen zu machen.",
+    "heroP1": "In einer Welt voller Feeds und Nachrichten sind echte Begegnungen wichtiger denn je.",
+    "heroP2": "macht dein Smartphone zu einem einfachen Weg, Menschen in deiner Nähe zu treffen und gemeinsam etwas zu unternehmen.",
     "heroP3a": "Bei",
-    "heroP3b": "fängt alles mit dir an — veranstalte Aktivitäten oder schließe dich inspirierenden Events in deiner Nähe an. Gefällt dir die Idee? Lade die App herunter und leg los.",
+    "heroP3b": "beginnt alles mit einer kleinen Idee: Erstelle eine Aktivität oder schließe dich einer in deiner Nähe an. Lade die App herunter und schau, was um dich herum passiert.",
     "heading": "So funktioniert JoinMe",
-    "description": "JoinMe hilft dir, neue Menschen in deiner Umgebung kennenzulernen — je nach Interesse oder Stimmung. Nimm an spontanen Treffen teil oder plane Aktivitäten im Voraus, chatte mit anderen und mache aus Kontakten echte Erlebnisse."
+    "description": "JoinMe hilft dir, Menschen in deiner Nähe durch kleine, authentische Aktivitäten kennenzulernen. Schließe dich spontan an, erstelle einen einfachen Plan, chatte nur so viel wie nötig und mach aus Interesse ein echtes Treffen."
   },
   "why": {
     "title": "Warum JoinMe?",
-    "text": "JoinMe ist eine People-to-People-App. Sie hilft dir, Menschen im echten Leben zu treffen – spontan oder geplant. Nicht jede Person passt perfekt zu dir, und das ist okay. Bei JoinMe geht es um neue Erfahrungen und gemeinsame Momente.",
-    "text1": "Genug von endlosen Kurzvideos und Trends? Zeit, den Bildschirm beiseite zu legen und echte Menschen in deiner Nähe zu treffen?",
-    "text2": "JoinMe ist eine People-to-People-App. Sie hilft dir, Menschen im echten Leben zu treffen – spontan oder geplant. Nicht jede Person passt perfekt zu dir, und das ist okay. Bei JoinMe geht es um neue Erfahrungen und gemeinsame Momente.",
-    "benefit1": "Finde Menschen mit gleichen Interessen",
-    "benefit2": "Nimm an Aktivitäten teil oder erstelle eigene — spontan oder geplant",
-    "benefit3": "Mach aus Chats echte Lächeln und gute Momente",
-    "benefit4": "Entdecke deine Stadt mit neuen Augen",
+    "text": "JoinMe hilft Menschen, sich im echten Leben zu treffen - spontan oder mit einem einfachen Plan. Nicht jedes Treffen muss perfekt passen. Manchmal geht es einfach darum, etwas Neues auszuprobieren, die Stadt anders zu erleben und einen echten Moment zu teilen.",
+    "text1": "Genug vom Scrollen, Matchen und Chatten, ohne dass je ein Treffen entsteht? JoinMe ist für Menschen gemacht, die rausgehen und etwas Echtes erleben wollen.",
+    "text2": "Finde kleine Aktivitäten in deiner Nähe, triff Menschen, die offen für neue Begegnungen sind, oder erstelle in wenigen Sekunden deinen eigenen Plan. Ohne große Veranstalter, ohne Druck, ohne komplizierte Event-Erstellung.",
+    "benefit1": "Triff Menschen in deiner Nähe über gemeinsame Interessen",
+    "benefit2": "Erstelle oder joine kleine Aktivitäten - spontan oder geplant",
+    "benefit3": "Halte Chats kurz und mach daraus echte Treffen",
+    "benefit4": "Entdecke deine Stadt durch andere Menschen",
     "activitiesTitle": "Was kannst du mit JoinMe machen?",
-    "activitiesSubtitle": "Entfalte deine Fantasie. Deine Welt, deine Aktivitäten. Von ruhigen Spaziergängen bis zu großen Abenteuern oder ausgefallenen Hobbys — du kannst Aktivitäten erstellen, die du liebst, sicher und legal.",
+    "activitiesSubtitle": "Starte mit dem, worauf du gerade Lust hast. Ein Spaziergang, ein Kaffee, Sport, Lernen, Ausgehen oder ein besonderes Hobby - JoinMe ist für kleine Aktivitäten gemacht, die sich natürlich, sicher und unkompliziert anfühlen.",
     "examples": "Beispiele:",
-    "activity1": "🌿 Spazieren im Park und gemeinsam Pflanzen benennen",
-    "activity2": "🧗‍♀️ Lokale Kletterhallen mit anderen Abenteurern entdecken",
-    "activity3": "🎨 Street-Art- oder Sketch-Walk mit kreativen Köpfen",
-    "activity4": "📚 Entspannter Kaffee- und Buch-Chat im Lieblingscafé",
-    "activity6": "🚴‍♂️ Deine Stadt bei einer Gruppen-Fahrradtour erkunden",
-    "activity7": "🎤 Karaoke-Fans finden und zusammen singen",
-    "end": "Die einzige Grenze ist deine Fantasie — erschaffe unvergessliche Momente."
+    "activity1": "🌿 Mit jemand Neuem im Park spazieren gehen",
+    "activity2": "🧗‍♀️ Gemeinsam eine lokale Kletterhalle ausprobieren",
+    "activity3": "🎨 Einen Street-Art- oder Sketch-Walk machen",
+    "activity4": "📚 Auf einen Kaffee und einen entspannten Buch-Chat treffen",
+    "activity6": "🚴‍♂️ Die Stadt bei einer lockeren Fahrradtour erkunden",
+    "activity7": "🎤 Leute in der Nähe für einen Karaoke-Abend finden",
+    "end": "Erstelle etwas Einfaches, joine etwas in deiner Nähe und schau, wohin der Moment führt."
   },
   "feature1Title": "📍 Spontan",
-  "feature1Text": "Die besten Momente sind spontan. Erstelle oder trete sofortigen Aktivitäten in deiner Nähe bei — vom schnellen Kaffee bis zur späten Party. Perfekt, wenn du Lust auf Leute und Austausch hast.",
+  "feature1Text": "Manche der besten Momente entstehen ohne Plan. Aktiviere den Spontan-Modus und sieh, wer in deiner Nähe gerade Zeit hat - für Kaffee, Sport, Spazieren, Lernen, Ausgehen oder etwas Einfaches und Echtes.",
   "feature2Title": "📅 Geplant",
-  "feature2Text": "Mache aus Ideen echte Pläne und gestalte deine Woche spannender. Erstelle eigene Aktivitäten oder schließe dich anderen an — heute, morgen oder innerhalb der nächsten 7 Tage. Ob Wandern, Sport, Shopping oder Lerngruppen — du entscheidest.",
+  "feature2Text": "Du hast eine Idee für später? Erstelle eine kleine Aktivität und lass Menschen in deiner Nähe beitreten. Halte es locker, wähle Zeit und Ort und mach deine Woche lebendiger.",
   "feature3Title": "✅ Sicher & flexibel",
-  "feature3Text": "Behalte die Kontrolle über deine Treffen: Bestimme, wer teilnehmen darf, und chatte erst, wenn du bereit bist. Sieh alle Details im Voraus — Zeit, Ort und Art der Aktivität. Erstelle eigene Abenteuer oder nimm jederzeit an spontanen und geplanten Aktivitäten teil. Fühl dich sicher, bleib flexibel und genieße echte Begegnungen zu deinen Bedingungen.",
+  "feature3Text": "Du behältst die Kontrolle darüber, wie du dich triffst. Sieh die Aktivitätsdetails, entscheide, wer bei deinen Plänen dabei ist, und nutze den Chat zur kurzen Abstimmung statt für endlose Nachrichten. Das echte Treffen bleibt im Mittelpunkt.",
   "safety": {
     "title": "Sicherheitsstandards",
     "intro": "JoinMe hilft Menschen, sich zu verbinden, aber jeder Nutzer ist für eigene Entscheidungen und die eigene Sicherheit bei Treffen selbst verantwortlich.",
@@ -124,12 +130,12 @@
       "note": "JoinMe bietet Tools und Hinweise, aber Nutzer bleiben für ihre eigene Sicherheit selbst verantwortlich."
     },
     "tips": {
-      "tip1": "👥 Triff dich an öffentlichen Orten wie Cafés oder in Parks.",
-      "tip2": "📱 Sag Freunden oder Familie Bescheid, was du planst.",
-      "tip3": "🕒 Triff dich zu einer passenden Uhrzeit.",
-      "tip4": "🚗 Nutze eigenen Transport oder öffentliche Verkehrsmittel.",
-      "tip5": "⚠️ Vertraue deinem Gefühl - geh, wenn sich etwas falsch anfühlt.",
-      "tip6": "🚨 Du kannst andere Nutzer jederzeit in der App melden."
+      "tip1": "Triff dich an öffentlichen Orten wie Cafés oder in Parks.",
+      "tip2": "Sag Freunden oder Familie Bescheid, was du planst.",
+      "tip3": "Triff dich zu einer passenden Uhrzeit.",
+      "tip4": "Nutze eigenen Transport oder öffentliche Verkehrsmittel.",
+      "tip5": "Vertraue deinem Gefühl - geh, wenn sich etwas falsch anfühlt.",
+      "tip6": "Du kannst andere Nutzer jederzeit in der App melden."
     }
   }
 }
