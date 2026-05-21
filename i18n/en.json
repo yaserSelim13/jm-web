@@ -3,12 +3,14 @@
   "subtitle": "Meet people nearby, for real",
   "nav": {
     "home": "Home",
-    "why": "Why JoinMe",
     "how": "Features",
     "safety": "Safety",
     "documentation": "Documentation",
     "faq": "FAQ",
     "download": "Download"
+  },
+  "header": {
+    "partyBadge": "Started in Berlin."
   },
   "footer": {
     "impressumLink": "Imprint",
@@ -54,12 +56,13 @@
     }
   },
   "homeLite": {
-    "kicker": "the JoinMe app",
     "title1": "No Plan?",
     "title2": "Perfect!",
     "lead": "Find people nearby who are up for real-life plans - no big events, no endless chatting.",
+    "origin": "We started in Berlin and grow city by city.",
     "downloadAria": "Download options",
     "note": "Small plans. Fresh faces. Real moments.",
+    "vibe": "For people with spontaneous ideas, enough curiosity to say yes sometimes, and no need to take everything so seriously.”",
     "modesAria": "Ways to use JoinMe",
     "spontaneousTitle": "Spontaneous",
     "spontaneousText": "Open the app and see who's nearby for coffee, basketball, a walk, studying, or whatever feels right now.",
@@ -78,26 +81,6 @@
     "heroP3b": ", it starts with a small idea: create an activity or join one nearby. Download the app and see what's happening around you.",
     "heading": "How JoinMe Works",
     "description": "JoinMe helps you meet people nearby through small, authentic activities. Join something spontaneous, create a simple plan, chat only as much as needed, and turn online interest into a real-life moment."
-  },
-  "why": {
-    "title": "Why JoinMe?",
-    "text": "JoinMe helps people meet in real life through spontaneous or lightly planned activities. Not every meetup has to become a perfect match. Sometimes it is simply about trying something new, seeing the city differently, and sharing a real moment.",
-    "text1": "Tired of scrolling, matching, and chatting without ever meeting? JoinMe is built for people who want to step outside and do something real.",
-    "text2": "Find small activities nearby, join people who are open to meeting, or create your own plan in seconds. No big organizers, no pressure, no complicated event setup.",
-    "benefit1": "Meet people nearby through shared interests",
-    "benefit2": "Create or join small activities - spontaneous or planned",
-    "benefit3": "Keep chat short and make the meetup real",
-    "benefit4": "Discover your city through other people",
-    "activitiesTitle": "What Can You Do with JoinMe?",
-    "activitiesSubtitle": "Start with whatever you feel like doing. A walk, a coffee, a workout, a study session, a night out, or a niche hobby - JoinMe is made for small real-life activities that feel natural, safe, and easy to join.",
-    "examples": "Examples:",
-    "activity1": "🌿 Take a walk in the park with someone new",
-    "activity2": "🧗‍♀️ Try a local climbing gym together",
-    "activity3": "🎨 Go on a street-art or sketch walk",
-    "activity4": "📚 Meet for coffee and a relaxed book chat",
-    "activity6": "🚴‍♂️ Explore the city on a casual bike ride",
-    "activity7": "🎤 Find people nearby for karaoke night",
-    "end": "Create something simple, join something nearby, and see where the moment takes you."
   },
   "feature1Title": "📍 Spontaneous",
   "feature1Text": "Some of the best moments happen without a plan. Turn on Spontaneous Mode to see people nearby who are free right now - for coffee, sports, a walk, studying, partying, or anything simple and real.",
