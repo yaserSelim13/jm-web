@@ -45,6 +45,27 @@ body {
   gap: 1rem;
 }
 
+.party-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.38rem 0.7rem;
+  border: 2px solid #0f172a;
+  border-radius: 12px;
+  background: #fff176;
+  color: #0f172a;
+  box-shadow: 4px 4px 0 #fb7185;
+  font-family: 'Baloo 2', cursive;
+  font-size: clamp(0.82rem, 1.6vw, 1rem);
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: center;
+  transform: rotate(-2deg);
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -158,6 +179,12 @@ body {
   margin: 0.9rem 0 0;
   max-width: 52ch;
   font-size: clamp(1rem, 2.2vw, 1.2rem);
+}
+
+.origin-note {
+  margin: 0.55rem 0 0;
+  color: #0f5132;
+  font-weight: 800;
 }
 
 .store-row {
@@ -318,7 +345,6 @@ app-terms,
 app-faq,
 app-safety,
 app-how,
-app-why,
 app-documentation {
   display: block;
   background: rgba(255, 255, 255, 0.72);
@@ -387,6 +413,21 @@ app-documentation {
     margin-top: 0.6rem;
     padding: 0.75rem;
     gap: 0.55rem;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    order: 1;
+  }
+
+  .party-badge {
+    order: 3;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .top-actions {
+    order: 2;
   }
 
   .brand-name {

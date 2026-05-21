@@ -7,7 +7,6 @@ import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { SafetyComponent } from './pages/safety/safety.component';
 import { TermsComponent } from './pages/terms/terms.component';
-import { WhyComponent } from './pages/why/why.component';
 
 export const routes: Routes = [
   { path: 'documentation', component: DocumentationComponent },
@@ -17,6 +16,5 @@ export const routes: Routes = [
   { path: 'impressum', component: ImpressumComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
-  { path: 'terms', component: TermsComponent },
-  { path: 'why', component: WhyComponent }
+  { path: 'terms', component: TermsComponent }
 ];

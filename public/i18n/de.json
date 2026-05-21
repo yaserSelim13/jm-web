@@ -3,12 +3,14 @@
   "subtitle": "Menschen in deiner Nähe treffen - im echten Leben",
   "nav": {
     "home": "Startseite",
-    "why": "Warum JoinMe",
     "how": "Funktionen",
     "safety": "Sicherheit",
     "documentation": "Dokumentation",
     "faq": "FAQ",
     "download": "Download"
+  },
+  "header": {
+    "partyBadge": "Gestartet in Berlin."
   },
   "footer": {
     "impressumLink": "Impressum",
@@ -54,12 +56,13 @@
     }
   },
   "homeLite": {
-    "kicker": "die JoinMe App",
     "title1": "Kein Plan?",
     "title2": "Perfekt!",
     "lead": "Finde Menschen in deiner Nähe, die Lust auf echte Treffen haben - ohne große Events und endloses Chatten.",
+    "origin": "Wir sind in Berlin gestartet und wachsen Stadt für Stadt weiter.",
     "downloadAria": "Download-Optionen",
     "note": "Kleine Pläne. Neue Gesichter. Echte Momente.",
+    "vibe": "Für Menschen mit spontanen Ideen und genug Neugier, einfach mal Ja zu sagen, ohne immer alles so ernst zu nehmen.",
     "modesAria": "So nutzt du JoinMe",
     "spontaneousTitle": "Spontan",
     "spontaneousText": "Öffne die App und sieh, wer in deiner Nähe gerade Lust auf Kaffee, Basketball, Spazieren, Lernen oder etwas Spontanes hat.",
@@ -78,26 +81,6 @@
     "heroP3b": "beginnt alles mit einer kleinen Idee: Erstelle eine Aktivität oder schließe dich einer in deiner Nähe an. Lade die App herunter und schau, was um dich herum passiert.",
     "heading": "So funktioniert JoinMe",
     "description": "JoinMe hilft dir, Menschen in deiner Nähe durch kleine, authentische Aktivitäten kennenzulernen. Schließe dich spontan an, erstelle einen einfachen Plan, chatte nur so viel wie nötig und mach aus Interesse ein echtes Treffen."
-  },
-  "why": {
-    "title": "Warum JoinMe?",
-    "text": "JoinMe hilft Menschen, sich im echten Leben zu treffen - spontan oder mit einem einfachen Plan. Nicht jedes Treffen muss perfekt passen. Manchmal geht es einfach darum, etwas Neues auszuprobieren, die Stadt anders zu erleben und einen echten Moment zu teilen.",
-    "text1": "Genug vom Scrollen, Matchen und Chatten, ohne dass je ein Treffen entsteht? JoinMe ist für Menschen gemacht, die rausgehen und etwas Echtes erleben wollen.",
-    "text2": "Finde kleine Aktivitäten in deiner Nähe, triff Menschen, die offen für neue Begegnungen sind, oder erstelle in wenigen Sekunden deinen eigenen Plan. Ohne große Veranstalter, ohne Druck, ohne komplizierte Event-Erstellung.",
-    "benefit1": "Triff Menschen in deiner Nähe über gemeinsame Interessen",
-    "benefit2": "Erstelle oder joine kleine Aktivitäten - spontan oder geplant",
-    "benefit3": "Halte Chats kurz und mach daraus echte Treffen",
-    "benefit4": "Entdecke deine Stadt durch andere Menschen",
-    "activitiesTitle": "Was kannst du mit JoinMe machen?",
-    "activitiesSubtitle": "Starte mit dem, worauf du gerade Lust hast. Ein Spaziergang, ein Kaffee, Sport, Lernen, Ausgehen oder ein besonderes Hobby - JoinMe ist für kleine Aktivitäten gemacht, die sich natürlich, sicher und unkompliziert anfühlen.",
-    "examples": "Beispiele:",
-    "activity1": "🌿 Mit jemand Neuem im Park spazieren gehen",
-    "activity2": "🧗‍♀️ Gemeinsam eine lokale Kletterhalle ausprobieren",
-    "activity3": "🎨 Einen Street-Art- oder Sketch-Walk machen",
-    "activity4": "📚 Auf einen Kaffee und einen entspannten Buch-Chat treffen",
-    "activity6": "🚴‍♂️ Die Stadt bei einer lockeren Fahrradtour erkunden",
-    "activity7": "🎤 Leute in der Nähe für einen Karaoke-Abend finden",
-    "end": "Erstelle etwas Einfaches, joine etwas in deiner Nähe und schau, wohin der Moment führt."
   },
   "feature1Title": "📍 Spontan",
   "feature1Text": "Manche der besten Momente entstehen ohne Plan. Aktiviere den Spontan-Modus und sieh, wer in deiner Nähe gerade Zeit hat - für Kaffee, Sport, Spazieren, Lernen, Ausgehen oder etwas Einfaches und Echtes.",
