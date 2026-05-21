@@ -30,6 +30,7 @@
               }
             ],
             "styles": [
+              "public/css/style.css",
               "src/styles.scss"
             ]
           },
