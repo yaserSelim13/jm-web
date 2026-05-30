@@ -58,10 +58,20 @@
   "homeLite": {
     "title1": "Kein Plan?",
     "title2": "Perfekt!",
-    "lead": "Finde Menschen in deiner Nähe, die Lust auf echte Treffen haben - ohne große Events und endloses Chatten.",
+    "lead": "Berlin hat 3,9 Millionen Menschen. Warum ist es trotzdem so schwer, jemanden für einen Kaffee, einen Spaziergang oder eine Fahrradtour zu finden?",
+    "solution": "JoinMe hilft dir, Menschen in deiner Nähe für kleine echte Treffen zu finden - ohne große Events und endloses Chatten.",
     "origin": "Wir sind in Berlin gestartet und wachsen Stadt für Stadt weiter.",
     "downloadAria": "Download-Optionen",
     "note": "Kleine Pläne. Neue Gesichter. Echte Momente.",
+    "examplesAria": "Beispiele für Aktivitäten",
+    "examples": {
+      "coffee": "Kaffee nach der Arbeit?",
+      "swimming": "Morgen schwimmen?",
+      "tiergarten": "Spaziergang im Tiergarten am Sonntag?",
+      "bike": "Fahrradtour nach Potsdam?",
+      "boardGames": "Brettspiele spielen",
+      "open": "Oder einfach etwas, das du lieber nicht allein machen willst."
+    },
     "vibe": "Für Menschen mit spontanen Ideen und genug Neugier, einfach mal Ja zu sagen, ohne immer alles so ernst zu nehmen.",
     "modesAria": "So nutzt du JoinMe",
     "spontaneousTitle": "Spontan",

@@ -58,10 +58,20 @@
   "homeLite": {
     "title1": "No Plan?",
     "title2": "Perfect!",
-    "lead": "Find people nearby who are up for real-life plans - no big events, no endless chatting.",
+    "lead": "Berlin has 3.9 million people. So why is it still so hard to find someone for a coffee, a walk, or a bike ride?",
+    "solution": "JoinMe helps you find people nearby for small real-life meetups - no big events, no endless chatting.",
     "origin": "We started in Berlin and grow city by city.",
     "downloadAria": "Download options",
     "note": "Small plans. Fresh faces. Real moments.",
+    "examplesAria": "Activity examples",
+    "examples": {
+      "coffee": "Coffee after work?",
+      "swimming": "Swimming tomorrow?",
+      "tiergarten": "Walk in Tiergarten on Sunday?",
+      "bike": "Bike ride to Potsdam?",
+      "boardGames": "Playing board games",
+      "open": "Or just something you would rather not do alone."
+    },
     "vibe": "For people with spontaneous ideas, enough curiosity to say yes sometimes, and no need to take everything so seriously.”",
     "modesAria": "Ways to use JoinMe",
     "spontaneousTitle": "Spontaneous",
