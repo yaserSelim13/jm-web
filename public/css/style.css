@@ -181,10 +181,38 @@ body {
   font-size: clamp(1rem, 2.2vw, 1.2rem);
 }
 
+.solution {
+  margin: 0.65rem 0 0;
+  max-width: 54ch;
+  color: #0f5132;
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  font-weight: 800;
+}
+
 .origin-note {
   margin: 0.55rem 0 0;
   color: #0f5132;
   font-weight: 800;
+}
+
+.activity-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.activity-examples li {
+  padding: 0.42rem 0.72rem;
+  border: 2px solid rgba(22, 163, 74, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: #1f3f62;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.25;
 }
 
 .store-row {
