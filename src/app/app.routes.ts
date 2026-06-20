@@ -7,6 +7,7 @@ import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { SafetyComponent } from './pages/safety/safety.component';
 import { TermsComponent } from './pages/terms/terms.component';
+import { LipGuessPrivacyPolicyComponent } from './pages/lipguess-privacy-policy/lipguess-privacy-policy.component';
 
 export const routes: Routes = [
   { path: 'documentation', component: DocumentationComponent },
@@ -15,6 +16,7 @@ export const routes: Routes = [
   { path: 'faq', component: FaqComponent },
   { path: 'impressum', component: ImpressumComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'lipguess/privacy-policy', component: LipGuessPrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
   { path: 'terms', component: TermsComponent }
 ];
