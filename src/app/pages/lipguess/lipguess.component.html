@@ -1,0 +1,115 @@
+<div class="lipguess-page">
+  <header class="lip-site-header">
+    <a class="lip-brand" routerLink="/lipguess" [queryParams]="{ lang: activeLang }" aria-label="LipGuess home">
+      <span aria-hidden="true">💋</span><strong>LipGuess</strong>
+    </a>
+    <nav aria-label="Language">
+      <a routerLink="/lipguess" [queryParams]="{ lang: 'en' }" [class.active]="activeLang === 'en'">EN</a>
+      <a routerLink="/lipguess" [queryParams]="{ lang: 'de' }" [class.active]="activeLang === 'de'">DE</a>
+    </nav>
+  </header>
+
+  <ng-container *ngIf="activeLang === 'de'; else englishPage">
+    <section class="lip-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">💋 Sehen · Erkennen · Raten</p>
+        <h1>Beobachte die Lippen. Errate das Wort.</h1>
+        <p class="hero-lead">
+          LipGuess ist ein unterhaltsames visuelles Worträtsel, bei dem du Wörter allein anhand von Lippenbewegungen erkennst.
+        </p>
+        <p>Schau genau hin, achte auf die Form der Lippen und wähle die richtige Antwort. Mit jeder Runde lernst du, Laute, Wörter und visuelle Sprachmuster besser zu unterscheiden.</p>
+        <div class="luck-pill">👀 Genau hinsehen · 💬 Das Wort erkennen</div>
+      </div>
+      <div class="lip-card" aria-label="Animierte Lippen beim Sprechen">
+        <div class="lip-shape"><span>?</span></div>
+        <p class="visual-caption">Welches Wort wird gesprochen?</p>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <p class="section-kicker">Funktionen</p>
+      <h2>Spielerisch Lippenlesen üben</h2>
+      <div class="step-grid">
+        <article><span>01</span><h3>Klare Animationen</h3><p>Beobachte deutliche und gut erkennbare Lippenbewegungen.</p></article>
+        <article><span>02</span><h3>Wörter erraten</h3><p>Löse visuelle Herausforderungen und wähle das richtige Wort.</p></article>
+        <article><span>03</span><h3>Formen unterscheiden</h3><p>Lerne, ähnlich aussehende Mund- und Lippenformen auseinanderzuhalten.</p></article>
+        <article><span>04</span><h3>Durch Übung besser werden</h3><p>Verbessere deine Beobachtung durch wiederholtes Spielen.</p></article>
+      </div>
+    </section>
+
+    <section class="endless-section">
+      <div>
+        <p class="section-kicker">Eine andere Art von Wortspiel</p>
+        <h2>Einfach, zugänglich und unterhaltsam</h2>
+        <p>Ob du deine Beobachtungsgabe testen, Lippenlesen üben oder einfach ein ungewöhnliches Worträtsel ausprobieren möchtest – LipGuess bietet eine unterhaltsame Herausforderung.</p>
+      </div>
+      <div class="tagline">Lippen beobachten.<br>Wort erraten.</div>
+    </section>
+
+    <section class="privacy-panel">
+      <div><p class="section-kicker">Deine Daten</p><h2>Spielen ohne Benutzerkonto</h2><p>Weitere Informationen über gespeicherte Spieldaten, Einstellungen und Werbung findest du in unserer Datenschutzerklärung.</p></div>
+      <a routerLink="/lipguess/privacy-policy" [queryParams]="{ lang: 'de' }">Datenschutzerklärung lesen <span aria-hidden="true">→</span></a>
+    </section>
+
+    <footer class="lip-footer">
+      <div><strong>LipGuess herunterladen</strong><p>Jetzt für Android verfügbar. Die iOS-Version folgt später.</p></div>
+      <div class="store-actions">
+        <a href="https://play.google.com/store/apps/details?id=com.lipguess.game" target="_blank" rel="noopener noreferrer" aria-label="LipGuess bei Google Play herunterladen"><img src="images/google-play.png" alt="Jetzt bei Google Play" /></a>
+        <span class="ios-soon" aria-label="iOS-Version folgt später"> <span>iOS<br><small>Demnächst</small></span></span>
+      </div>
+      <nav><a routerLink="/lipguess/privacy-policy" [queryParams]="{ lang: 'de' }">Datenschutz</a><a href="mailto:support@join-me-app.com">Support</a></nav>
+    </footer>
+  </ng-container>
+
+  <ng-template #englishPage>
+    <section class="lip-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">💋 Watch · Recognize · Guess</p>
+        <h1>Watch the lips. Guess the word.</h1>
+        <p class="hero-lead">
+          LipGuess is a fun visual word-guessing game that challenges you to recognize words by watching lip movements.
+        </p>
+        <p>Look closely at the mouth, study the lip shape, and choose the correct answer. Each round helps you become more familiar with different sounds, words, and visual speech patterns.</p>
+        <div class="luck-pill">👀 Look closely · 💬 Recognize the word</div>
+      </div>
+      <div class="lip-card" aria-label="Animated lips speaking a word">
+        <div class="lip-shape"><span>?</span></div>
+        <p class="visual-caption">Which word is being spoken?</p>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <p class="section-kicker">Features</p>
+      <h2>Practice visual speech through play</h2>
+      <div class="step-grid">
+        <article><span>01</span><h3>Clear animations</h3><p>Watch clear and easy-to-follow lip-movement animations.</p></article>
+        <article><span>02</span><h3>Guess words</h3><p>Solve visual challenges and choose the correct word.</p></article>
+        <article><span>03</span><h3>Compare mouth shapes</h3><p>Learn to distinguish similar-looking mouth and lip shapes.</p></article>
+        <article><span>04</span><h3>Improve with practice</h3><p>Strengthen your observation through repeated play.</p></article>
+      </div>
+    </section>
+
+    <section class="endless-section">
+      <div>
+        <p class="section-kicker">A different kind of word game</p>
+        <h2>Simple, accessible, and entertaining</h2>
+        <p>Whether you want to test your observation skills, practice lip-reading, or simply try a different kind of word game, LipGuess offers an entertaining challenge.</p>
+      </div>
+      <div class="tagline">Watch the lips.<br>Guess the word.</div>
+    </section>
+
+    <section class="privacy-panel">
+      <div><p class="section-kicker">Your data</p><h2>Play without an account</h2><p>Read our Privacy Policy to learn more about stored game data, settings, and advertising.</p></div>
+      <a routerLink="/lipguess/privacy-policy" [queryParams]="{ lang: 'en' }">Read the Privacy Policy <span aria-hidden="true">→</span></a>
+    </section>
+
+    <footer class="lip-footer">
+      <div><strong>Download LipGuess</strong><p>Available now for Android. The iOS version is coming later.</p></div>
+      <div class="store-actions">
+        <a href="https://play.google.com/store/apps/details?id=com.lipguess.game" target="_blank" rel="noopener noreferrer" aria-label="Download LipGuess on Google Play"><img src="images/google-play.png" alt="Get it on Google Play" /></a>
+        <span class="ios-soon" aria-label="iOS version coming later"> <span>iOS<br><small>Coming later</small></span></span>
+      </div>
+      <nav><a routerLink="/lipguess/privacy-policy" [queryParams]="{ lang: 'en' }">Privacy</a><a href="mailto:support@join-me-app.com">Support</a></nav>
+    </footer>
+  </ng-template>
+</div>
