@@ -11,6 +11,7 @@ import { filter } from 'rxjs';
 })
 export class App {
   activeLang = 'en';
+  isLipGuessRoute = false;
   private readonly supportedLangs = new Set(['en', 'de']);
   private readonly langStorageKey = 'lang';
 
@@ -21,7 +22,12 @@ export class App {
     this.syncLanguage(this.getLangFromLocationSearch());
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
-      .subscribe(() => this.syncLanguage(this.getLangFromQuery()));
+      .subscribe(() => {
+        this.isLipGuessRoute = this.router.url.startsWith('/lipguess');
+        this.syncLanguage(this.getLangFromQuery());
+      });
+
+    this.isLipGuessRoute = window.location.pathname.startsWith('/lipguess');
   }
 
   setLang(lang: string): void {

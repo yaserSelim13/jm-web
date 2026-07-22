@@ -144,6 +144,11 @@ body {
   margin: 1rem auto;
 }
 
+.app-main.lipguess-main {
+  width: min(1180px, calc(100% - 2rem));
+  margin-top: 1rem;
+}
+
 .hero-panel {
   border: 2px solid var(--line);
   border-radius: 26px;

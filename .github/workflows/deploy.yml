@@ -34,6 +34,8 @@ jobs:
       - name: Fix Angular routing
         run: |
           cp dist/jm-web/browser/index.html dist/jm-web/browser/404.html
+          mkdir -p dist/jm-web/browser/lipguess
+          cp dist/jm-web/browser/index.html dist/jm-web/browser/lipguess/index.html
           cp CNAME dist/jm-web/browser/CNAME
 
       - name: Deploy to GitHub Pages
