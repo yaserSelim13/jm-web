@@ -1,0 +1,107 @@
+<div class="time-page">
+  <header class="time-site-header">
+    <a class="time-brand" routerLink="/time-calculator" [queryParams]="{ lang: activeLang }" aria-label="Time Calculator home">
+      <span aria-hidden="true">⏱️</span><strong>CalcTrack Time</strong>
+    </a>
+    <nav aria-label="Language">
+      <a routerLink="/time-calculator" [queryParams]="{ lang: 'en' }" [class.active]="activeLang === 'en'">EN</a>
+      <a routerLink="/time-calculator" [queryParams]="{ lang: 'de' }" [class.active]="activeLang === 'de'">DE</a>
+    </nav>
+  </header>
+
+  <ng-container *ngIf="activeLang === 'de'; else englishPage">
+    <section class="time-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Zeit berechnen · Pausen abziehen · Einheiten umwandeln</p>
+        <h1>Ein ruhiger Rechner für deine Zeit.</h1>
+        <p class="hero-lead">
+          CalcTrack Time hilft dir, Arbeitszeiten, Pausen, Zeitdifferenzen, Countdown-Zeiten, Alter und Zeiteinheiten schnell zu berechnen.
+        </p>
+        <p>Die Berechnungen passieren auf deinem Gerät. Du brauchst kein Konto, und deine eingegebenen Zeiten werden nicht an uns gesendet.</p>
+        <div class="time-pill">🔒 Keine Konten · 📱 Lokale Berechnungen · 📢 Werbung unterstützt die App</div>
+      </div>
+      <div class="calculator-card" aria-label="Time calculator preview">
+        <div class="screen-line strong"><span>09:00</span><span>17:30</span></div>
+        <div class="screen-line"><span>Pause</span><span>00:45</span></div>
+        <div class="screen-result">7h 45m</div>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <p class="section-kicker">Funktionen</p>
+      <h2>Alles rund um Zeit an einem Ort</h2>
+      <div class="step-grid">
+        <article><span>01</span><h3>Arbeitszeit</h3><p>Berechne Nettozeit mit Pausen nach Uhrzeit oder Dauer.</p></article>
+        <article><span>02</span><h3>Zeitrechner</h3><p>Addiere oder subtrahiere Tage, Stunden, Minuten und Sekunden.</p></article>
+        <article><span>03</span><h3>Umrechnen</h3><p>Wandle Tage, Stunden, Minuten und Sekunden inklusive Dezimalwerten um.</p></article>
+        <article><span>04</span><h3>Countdown & Alter</h3><p>Berechne verbleibende Zeit, vergangene Zeit und genaues Alter.</p></article>
+      </div>
+    </section>
+
+    <section class="privacy-panel">
+      <div>
+        <p class="section-kicker">Datenschutz</p>
+        <h2>Keine Speicherung deiner Eingaben durch uns</h2>
+        <p>Die App zeigt Werbung, speichert aber keine von dir eingegebenen Zeiten auf unseren Servern.</p>
+      </div>
+      <a routerLink="/time-calculator/privacy-policy" [queryParams]="{ lang: 'de' }">Datenschutzerklärung lesen <span aria-hidden="true">→</span></a>
+    </section>
+
+    <footer class="time-footer">
+      <div><strong>CalcTrack Time herunterladen</strong><p>Ein einfacher Zeitrechner für Alltag und Arbeit.</p></div>
+      <div class="store-actions">
+        <a href="#" aria-label="CalcTrack Time bei Google Play"><img src="images/google-play.png" alt="Jetzt bei Google Play" /></a>
+        <a href="#" aria-label="CalcTrack Time im App Store"><img src="images/app-store.png" alt="Im App Store laden" /></a>
+      </div>
+      <nav><a routerLink="/time-calculator/privacy-policy" [queryParams]="{ lang: 'de' }">Datenschutz</a><a href="/impressum">Impressum</a></nav>
+    </footer>
+  </ng-container>
+
+  <ng-template #englishPage>
+    <section class="time-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Calculate time · subtract breaks · convert units</p>
+        <h1>A calm calculator for your time.</h1>
+        <p class="hero-lead">
+          CalcTrack Time helps you calculate work hours, breaks, time differences, countdowns, age, and time-unit conversions.
+        </p>
+        <p>Calculations happen on your device. You do not need an account, and the times you enter are not sent to us.</p>
+        <div class="time-pill">🔒 No accounts · 📱 Local calculations · 📢 Supported by ads</div>
+      </div>
+      <div class="calculator-card" aria-label="Time calculator preview">
+        <div class="screen-line strong"><span>09:00</span><span>17:30</span></div>
+        <div class="screen-line"><span>Break</span><span>00:45</span></div>
+        <div class="screen-result">7h 45m</div>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <p class="section-kicker">Features</p>
+      <h2>Time tools in one place</h2>
+      <div class="step-grid">
+        <article><span>01</span><h3>Work hours</h3><p>Calculate net time with breaks by time range or duration.</p></article>
+        <article><span>02</span><h3>Time calculator</h3><p>Add or subtract days, hours, minutes, and seconds.</p></article>
+        <article><span>03</span><h3>Unit converter</h3><p>Convert days, hours, minutes, and seconds, including decimal values.</p></article>
+        <article><span>04</span><h3>Countdown & age</h3><p>Calculate time until, time since, and exact age.</p></article>
+      </div>
+    </section>
+
+    <section class="privacy-panel">
+      <div>
+        <p class="section-kicker">Privacy</p>
+        <h2>We do not save your entered times</h2>
+        <p>The app is supported by advertising, but your time calculations are not stored on our servers.</p>
+      </div>
+      <a routerLink="/time-calculator/privacy-policy" [queryParams]="{ lang: 'en' }">Read the Privacy Policy <span aria-hidden="true">→</span></a>
+    </section>
+
+    <footer class="time-footer">
+      <div><strong>Download CalcTrack Time</strong><p>A simple time calculator for daily work and life.</p></div>
+      <div class="store-actions">
+        <a href="#" aria-label="Get CalcTrack Time on Google Play"><img src="images/google-play.png" alt="Get it on Google Play" /></a>
+        <a href="#" aria-label="Download CalcTrack Time on the App Store"><img src="images/app-store.png" alt="Download on the App Store" /></a>
+      </div>
+      <nav><a routerLink="/time-calculator/privacy-policy" [queryParams]="{ lang: 'en' }">Privacy</a><a href="/impressum">Impressum</a></nav>
+    </footer>
+  </ng-template>
+</div>

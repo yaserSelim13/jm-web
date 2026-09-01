@@ -1,4 +1,4 @@
-@if (!isLipGuessRoute) {
+@if (!isStandaloneAppRoute) {
 <header class="topbar">
   <a routerLink="/" [queryParams]="{ lang: activeLang }" class="brand" aria-label="JoinMe home">
     <img src="images/logo.png" alt="JoinMe logo" class="brand-logo" />
@@ -29,11 +29,11 @@
 </header>
 }
 
-<main class="app-main" [class.lipguess-main]="isLipGuessRoute">
+<main class="app-main" [class.lipguess-main]="isStandaloneAppRoute">
   <router-outlet />
 </main>
 
-@if (!isLipGuessRoute) {
+@if (!isStandaloneAppRoute) {
 <footer class="site-footer">
   <section id="download" class="footer-download" [attr.aria-label]="'footer.downloadAria' | transloco">
     <div>

@@ -11,7 +11,7 @@ import { filter } from 'rxjs';
 })
 export class App {
   activeLang = 'en';
-  isLipGuessRoute = false;
+  isStandaloneAppRoute = false;
   private readonly supportedLangs = new Set(['en', 'de']);
   private readonly langStorageKey = 'lang';
 
@@ -23,11 +23,11 @@ export class App {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
-        this.isLipGuessRoute = this.router.url.startsWith('/lipguess');
+        this.isStandaloneAppRoute = this.isStandalonePath(this.router.url);
         this.syncLanguage(this.getLangFromQuery());
       });
 
-    this.isLipGuessRoute = window.location.pathname.startsWith('/lipguess');
+    this.isStandaloneAppRoute = this.isStandalonePath(window.location.pathname);
   }
 
   setLang(lang: string): void {
@@ -80,6 +80,10 @@ export class App {
     this.activeLang = lang;
     this.transloco.setActiveLang(lang);
     localStorage.setItem(this.langStorageKey, lang);
+  }
+
+  private isStandalonePath(path: string): boolean {
+    return path.startsWith('/lipguess') || path.startsWith('/time-calculator');
   }
 
   private isSupportedLang(lang: string | null): lang is string {

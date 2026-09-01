@@ -9,6 +9,8 @@ import { SafetyComponent } from './pages/safety/safety.component';
 import { TermsComponent } from './pages/terms/terms.component';
 import { LipGuessPrivacyPolicyComponent } from './pages/lipguess-privacy-policy/lipguess-privacy-policy.component';
 import { LipGuessComponent } from './pages/lipguess/lipguess.component';
+import { TimeCalculatorComponent } from './pages/time-calculator/time-calculator.component';
+import { TimeCalculatorPrivacyPolicyComponent } from './pages/time-calculator-privacy-policy/time-calculator-privacy-policy.component';
 
 export const routes: Routes = [
   { path: 'documentation', component: DocumentationComponent },
@@ -22,6 +24,8 @@ export const routes: Routes = [
   { path: 'lipguess/privacy-policy', component: LipGuessPrivacyPolicyComponent },
   { path: 'liguess', redirectTo: 'lipguess', pathMatch: 'full' },
   { path: 'liguess/how', redirectTo: 'lipguess/how', pathMatch: 'full' },
+  { path: 'time-calculator', component: TimeCalculatorComponent },
+  { path: 'time-calculator/privacy-policy', component: TimeCalculatorPrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
   { path: 'terms', component: TermsComponent }
 ];
