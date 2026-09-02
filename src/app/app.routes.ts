@@ -25,6 +25,7 @@ export const routes: Routes = [
   { path: 'liguess', redirectTo: 'lipguess', pathMatch: 'full' },
   { path: 'liguess/how', redirectTo: 'lipguess/how', pathMatch: 'full' },
   { path: 'time-calculator', component: TimeCalculatorComponent },
+  { path: 'time-calculator-privacy-policy', component: TimeCalculatorPrivacyPolicyComponent },
   { path: 'time-calculator/privacy-policy', component: TimeCalculatorPrivacyPolicyComponent },
   { path: 'safety', component: SafetyComponent },
   { path: 'terms', component: TermsComponent }
