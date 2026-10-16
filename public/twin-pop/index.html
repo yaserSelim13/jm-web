@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TwinPop | A colorful matching game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Spawn colorful shapes, drag matching twins together, and build combos in TwinPop, a quick and playful matching game.">
+  <link rel="canonical" href="https://www.join-me-app.com/twin-pop/">
+  <style>
+    :root { color-scheme: light; --ink: #321322; --accent: #db2777; --soft: #fff1f7; --line: #f9a8d4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 1rem; color: var(--ink); background: radial-gradient(circle at 12% 8%, #fce7f3, transparent 35%), #fff9fc; font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main, header { max-width: 920px; margin: 1rem auto; }
+    header, section, footer { border: 2px solid var(--line); border-radius: 26px; background: rgba(255,255,255,.94); box-shadow: 0 12px 32px rgba(190,24,93,.1); }
+    header { padding: 1rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { color: var(--ink); font-size: 1.3rem; font-weight: 900; text-decoration: none; }
+    section, footer { margin-top: 1rem; padding: clamp(1.25rem, 4vw, 2.6rem); }
+    h1 { max-width: 13ch; margin: 0; font-size: clamp(2.8rem, 8vw, 5.5rem); line-height: .95; letter-spacing: -.045em; }
+    h2 { margin-top: 0; }
+    .eyebrow { color: var(--accent); font-size: .8rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+    .pill { display: inline-flex; flex-wrap: wrap; padding: .55rem .85rem; border: 2px solid var(--line); border-radius: 999px; background: #fff; color: #be185d; font-weight: 800; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; }
+    article { padding: 1rem; border: 2px solid #fce7f3; border-radius: 19px; background: var(--soft); }
+    .shapes { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.5rem 0 .5rem; }
+    .shape { display: grid; width: 3.2rem; aspect-ratio: 1; place-items: center; border: 3px solid white; border-radius: 1rem; box-shadow: 0 5px 14px rgba(190,24,93,.16); font-size: 1.6rem; }
+    .shape:nth-child(3n + 1) { background: #f9a8d4; transform: rotate(-8deg); }
+    .shape:nth-child(3n + 2) { background: #fde68a; border-radius: 50%; transform: rotate(8deg); }
+    .shape:nth-child(3n) { background: #a5f3fc; border-radius: 50% 50% 1rem 50%; transform: rotate(-12deg); }
+    a { color: #be185d; font-weight: 800; }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="/twin-pop/">🫧 TwinPop</a><a href="/twin-pop-privacy-policy.html">Privacy Policy</a></header>
+  <main>
+    <section>
+      <p class="eyebrow">Spot a twin · Make a match · Keep the combo going</p>
+      <h1>Pop into a perfect match.</h1>
+      <div class="shapes" aria-hidden="true"><span class="shape">♥</span><span class="shape">★</span><span class="shape">◆</span><span class="shape">♥</span><span class="shape">★</span></div>
+      <p>TwinPop is a quick, colorful matching game. Tap to add shapes, then drag two identical shapes together to pop a match and score points. Keep matching to build a combo.</p>
+      <p>Each shape has a timer, so look sharp and make your matches before time runs out. Start with a few familiar shapes, then try a trickier level with more variety and a faster pace.</p>
+      <p class="pill">🎮 Quick rounds · 🫧 Colorful shapes · 🔥 Combo scoring</p>
+    </section>
+    <section>
+      <h2>How to play</h2>
+      <div class="grid">
+        <article><strong>1. Spawn a shape</strong><p>Tap an open spot in the play area to add a new colorful shape.</p></article>
+        <article><strong>2. Find its twin</strong><p>Look for another shape with the same color and form.</p></article>
+        <article><strong>3. Drag to match</strong><p>Move the pair together to pop them, earn points, and keep your run alive.</p></article>
+      </div>
+    </section>
+    <footer>
+      <strong>Privacy:</strong> TwinPop is supported by advertising. Learn what that means in our <a href="/twin-pop-privacy-policy.html">Privacy Policy</a>.
+    </footer>
+  </main>
+</body>
+</html>
