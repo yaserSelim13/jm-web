@@ -1,3 +1,6 @@
 {
-"pairoPop": "0.0.0"
+"pairoPop": {
+    "android": "1.2.0",
+    "ios": "1.1.0"
+  }
 }
