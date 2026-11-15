@@ -1,6 +1,10 @@
 {
-"pairoPop": {
+  "pairoPop": {
     "android": "1.0.6",
+    "ios": "0.0.0"
+  },
+  "lipguess": {
+    "android": "0.0.0",
     "ios": "0.0.0"
   }
 }
